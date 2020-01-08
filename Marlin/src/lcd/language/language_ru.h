@@ -88,10 +88,6 @@ namespace Language_ru {
   PROGMEM Language_Str MSG_NEXT_CORNER                     = _UxGT("Следующий угол");
   PROGMEM Language_Str MSG_EDIT_MESH                       = _UxGT("Редактировать сетку");
   PROGMEM Language_Str MSG_EDITING_STOPPED                 = _UxGT("Ред. сетки завершено");
-  PROGMEM Language_Str MSG_PROBING_MESH                    = _UxGT("Точка сетки:");
-  PROGMEM Language_Str MSG_MESH_X                          = _UxGT("Индекс X");
-  PROGMEM Language_Str MSG_MESH_Y                          = _UxGT("Индекс Y");
-  PROGMEM Language_Str MSG_MESH_EDIT_Z                     = _UxGT("Значение Z");
   PROGMEM Language_Str MSG_USER_MENU                       = _UxGT("Свои команды");
 
   PROGMEM Language_Str MSG_M48_TEST                        = _UxGT("Проверка датчика Z");
@@ -199,7 +195,6 @@ namespace Language_ru {
   PROGMEM Language_Str MSG_MOVE_Z                          = _UxGT("Движение по Z");
   PROGMEM Language_Str MSG_MOVE_E                          = _UxGT("Экструдер");
   PROGMEM Language_Str MSG_MOVE_EN                         = _UxGT("Экструдер *");
-  PROGMEM Language_Str MSG_HOTEND_TOO_COLD                 = _UxGT("Сопло не нагрето");
   PROGMEM Language_Str MSG_MOVE_Z_DIST                     = _UxGT("Движение %sмм");
   PROGMEM Language_Str MSG_MOVE_01MM                       = _UxGT("Движение 0.1мм");
   PROGMEM Language_Str MSG_MOVE_1MM                        = _UxGT("Движение 1мм");
@@ -263,7 +258,7 @@ namespace Language_ru {
   PROGMEM Language_Str MSG_TEMPERATURE                     = _UxGT("Температура");
   PROGMEM Language_Str MSG_MOTION                          = _UxGT("Движение");
   PROGMEM Language_Str MSG_FILAMENT                        = _UxGT("Филамент");
-  PROGMEM Language_Str MSG_VOLUMETRIC_ENABLED              = _UxGT("E в мм³");
+  PROGMEM Language_Str MSG_VOLUMETRIC_ENABLED              = _UxGT("E в мм3");
   PROGMEM Language_Str MSG_FILAMENT_DIAM                   = _UxGT("Диаметр филамента");
   PROGMEM Language_Str MSG_FILAMENT_DIAM_E                 = _UxGT("Диаметр филамента *");
   PROGMEM Language_Str MSG_FILAMENT_UNLOAD                 = _UxGT("Загрузка мм");
@@ -278,7 +273,7 @@ namespace Language_ru {
   PROGMEM Language_Str MSG_MEDIA_UPDATE                    = _UxGT("Обновление прошивки");
   PROGMEM Language_Str MSG_RESET_PRINTER                   = _UxGT("Сброс принтера");
   PROGMEM Language_Str MSG_REFRESH                         = LCD_STR_REFRESH  _UxGT("Обновить");
-  PROGMEM Language_Str MSG_INFO_SCREEN                     = _UxGT("Информационный экран");
+  PROGMEM Language_Str MSG_WATCH                           = _UxGT("Информационный экран");
   PROGMEM Language_Str MSG_PREPARE                         = _UxGT("Подготовить");
   PROGMEM Language_Str MSG_TUNE                            = _UxGT("Настроить");
   PROGMEM Language_Str MSG_START_PRINT                     = _UxGT("Начало печати");
@@ -333,8 +328,8 @@ namespace Language_ru {
   PROGMEM Language_Str MSG_BLTOUCH                         = _UxGT("BLTouch");
   PROGMEM Language_Str MSG_BLTOUCH_SELFTEST                = _UxGT("Тестирование BLTouch");
   PROGMEM Language_Str MSG_BLTOUCH_RESET                   = _UxGT("Сброс BLTouch");
-  PROGMEM Language_Str MSG_BLTOUCH_DEPLOY                  = _UxGT("Опустить BLTouch");
-  PROGMEM Language_Str MSG_BLTOUCH_STOW                    = _UxGT("Поднять BLTouch");
+  PROGMEM Language_Str MSG_BLTOUCH_DEPLOY                  = _UxGT("Установка BLTouch");
+  PROGMEM Language_Str MSG_BLTOUCH_STOW                    = _UxGT("Набивка BLTouch");
 
   // TODO: TouchMI Probe, Manual deploy/stow
 
@@ -413,10 +408,7 @@ namespace Language_ru {
   PROGMEM Language_Str MSG_INFO_MAX_TEMP                   = _UxGT("Макс. Т");
   PROGMEM Language_Str MSG_INFO_PSU                        = _UxGT("БП");
   PROGMEM Language_Str MSG_DRIVE_STRENGTH                  = _UxGT("Сила привода");
-  PROGMEM Language_Str MSG_DAC_PERCENT_X                   = _UxGT("X Привод %");
-  PROGMEM Language_Str MSG_DAC_PERCENT_Y                   = _UxGT("Y Привод %");
-  PROGMEM Language_Str MSG_DAC_PERCENT_Z                   = _UxGT("Z Привод %");
-  PROGMEM Language_Str MSG_DAC_PERCENT_E                   = _UxGT("E Привод %");
+  PROGMEM Language_Str MSG_DAC_PERCENT                     = _UxGT("Привод %");
   PROGMEM Language_Str MSG_DAC_EEPROM_WRITE                = _UxGT("Запись DAC EEPROM");
   PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEADER_PAUSE    = _UxGT("ПЕЧАТЬ НА ПАУЗЕ");
   PROGMEM Language_Str MSG_FILAMENT_CHANGE_HEADER_LOAD     = _UxGT("ЗАГРУЗКА ФИЛАМЕНТА");
